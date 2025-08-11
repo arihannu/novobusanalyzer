@@ -260,16 +260,6 @@ Sources/BUSMASTER/BIN/*/CAN_Vector_XL.dll
 Sources/BUSMASTER/BIN/*/CAN_VSCOM.dll
 Sources/BUSMASTER/BIN/*/Changelog.txt
 Sources/BUSMASTER/BIN/*/ConfigDialogsDIL.dll
-Sources/BUSMASTER/BIN/*/ConverterPlugins/AscLogConverter.dll
-Sources/BUSMASTER/BIN/*/ConverterPlugins/CAPL2CConverter.dll
-Sources/BUSMASTER/BIN/*/ConverterPlugins/CAPL2CConverterJPN.dll
-Sources/BUSMASTER/BIN/*/ConverterPlugins/DBC2DBFConverter.dll
-Sources/BUSMASTER/BIN/*/ConverterPlugins/DBC2DBFConverterLibrary.dll
-Sources/BUSMASTER/BIN/*/ConverterPlugins/DBF2DBCConverter.dll
-Sources/BUSMASTER/BIN/*/ConverterPlugins/J1939DBC2DBFConverter.dll
-Sources/BUSMASTER/BIN/*/ConverterPlugins/LogAscConverter.dll
-Sources/BUSMASTER/BIN/*/ConverterPlugins/LogToExcelConverter.dll
-Sources/BUSMASTER/BIN/*/ConverterPlugins/LogToExcelConverterJPN.dll
 Sources/BUSMASTER/BIN/*/DIL_Interface.dll
 Sources/BUSMASTER/BIN/*/BusmasterDriverInterface.dll
 Sources/BUSMASTER/BIN/*/BusmasterKernel.dll
@@ -324,7 +314,7 @@ Sources/BUSMASTER/BIN/*/icuin52.dll
 Sources/BUSMASTER/BIN/*/icudt52.dll
 Sources/BUSMASTER/BIN/*/qwindows.dll
 Sources/BUSMASTER/BIN/*/D3Dcompiler_47.dll
-Sources/BUSMASTER/BIN/*/platforms/qwindows.dll
+Sources/BUSMASTER/BIN/*/platforms
 Sources/BUSMASTER/BIN/*/translations
 Sources/BUSMASTER/BIN/*/iconengines
 Sources/BUSMASTER/BIN/*/libEGL.dll
@@ -332,6 +322,13 @@ Sources/BUSMASTER/BIN/*/libGLESv2.dll
 Sources/BUSMASTER/BIN/*/opengl32sw.dll
 Sources/BUSMASTER/BIN/*/Qt5Svg.dll
 Sources/BUSMASTER/BIN/*/styles
+Sources/BUSMASTER/BIN/*/imageformats
+Sources/BUSMASTER/BIN/Debug/libEGLd.dll
+Sources/BUSMASTER/BIN/Debug/libGLESv2d.dll
+Sources/BUSMASTER/BIN/Debug/Qt5Cored.dll
+Sources/BUSMASTER/BIN/Debug/Qt5Guid.dll
+Sources/BUSMASTER/BIN/Debug/Qt5Svgd.dll
+Sources/BUSMASTER/BIN/Debug/Qt5Widgetsd.dll
 Sources/BUSMASTER/BIN/*/DBManager.dll
 Sources/BUSMASTER/BIN/*/JPN
 Sources/BUSMASTER/BIN/*/AscLogConverter.dll
@@ -423,9 +420,9 @@ Sources/BUSMASTER/LDFViewer/GeneratedFiles
 Sources/BUSMASTER/LDFViewer/LDFViewer_autogen
 Sources/BUSMASTER/LDFEditor/LDFEditor_autogen
 
-Sources/BUSMASTER/BIN/Release/canal.dll
-Sources/BUSMASTER/BIN/Release/mhstcan.dll
-Sources/BUSMASTER/BIN/Release/ConverterPlugins
+Sources/BUSMASTER/BIN/*/canal.dll
+Sources/BUSMASTER/BIN/*/mhstcan.dll
+Sources/BUSMASTER/BIN/*/ConverterPlugins
 
 # CMake build dirs
 Sources/BUSMASTER/BIN/Sources
@@ -473,4 +470,3 @@ Tests/PMD/cpd.html
 Tests/PMD/cpd.xml
 Tests/PMD/cpd-fixed.xml
 Tests/Requirements Traceability Matrix/report.html
-
