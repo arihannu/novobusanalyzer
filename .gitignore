@@ -19,6 +19,8 @@
 *.vcxproj.user
 *.db
 *.ldf
+*.exp
+*.lib
 qwebp.dll
 qwbmp.dll
 qtaccessiblewidgets.dll
@@ -59,14 +61,14 @@ Sources/BUSMASTER/EXTERNAL/DmGraph/DMGraph.h
 Sources/BUSMASTER/EXTERNAL/DmGraph/DMGraph.tlb
 Sources/BUSMASTER/EXTERNAL/DmGraph/DMGraph_i.c
 Sources/BUSMASTER/EXTERNAL/DmGraph/DMGraph_p.c
-Sources/BUSMASTER/Format Converter/AscLogConverter/Asc_Log_Lexer.c
-Sources/BUSMASTER/Format Converter/AscLogConverter/asc_log_parser.c
-Sources/BUSMASTER/Format Converter/AscLogConverter/Asc_Log_Parser.h
-Sources/BUSMASTER/Format Converter/CAPL2CConverter/CAPL_C_Lexer.h
-Sources/BUSMASTER/Format Converter/DBC2DBFConverterLibrary/dbc_dbf_Lexer.c
-Sources/BUSMASTER/Format Converter/LogAscConverter/Log_Asc_Lexer.c
-Sources/BUSMASTER/Format Converter/LogAscConverter/log_asc_parser.c
-Sources/BUSMASTER/Format Converter/LogAscConverter/log_asc_parser.h
+Sources/BUSMASTER/FormatConverter/AscLogConverter/Asc_Log_Lexer.c
+Sources/BUSMASTER/FormatConverter/AscLogConverter/asc_log_parser.c
+Sources/BUSMASTER/FormatConverter/AscLogConverter/asc_log_parser.h
+Sources/BUSMASTER/FormatConverter/CAPL2CConverter/CAPL_C_Lexer.h
+Sources/BUSMASTER/FormatConverter/DBC2DBFConverterLibrary/dbc_dbf_Lexer.c
+Sources/BUSMASTER/FormatConverter/LogAscConverter/Log_Asc_Lexer.c
+Sources/BUSMASTER/FormatConverter/LogAscConverter/log_asc_parser.c
+Sources/BUSMASTER/FormatConverter/LogAscConverter/log_asc_parser.h
 Sources/BUSMASTER/TestSuiteExecutorGUI/lexer.c
 Sources/BUSMASTER/TestSuiteExecutorGUI/parser.c
 Sources/BUSMASTER/TestSuiteExecutorGUI/parser.h
@@ -321,9 +323,31 @@ Sources/BUSMASTER/BIN/*/icuuc52.dll
 Sources/BUSMASTER/BIN/*/icuin52.dll
 Sources/BUSMASTER/BIN/*/icudt52.dll
 Sources/BUSMASTER/BIN/*/qwindows.dll
+Sources/BUSMASTER/BIN/*/D3Dcompiler_47.dll
 Sources/BUSMASTER/BIN/*/platforms/qwindows.dll
+Sources/BUSMASTER/BIN/*/translations
+Sources/BUSMASTER/BIN/*/iconengines
+Sources/BUSMASTER/BIN/*/libEGL.dll
+Sources/BUSMASTER/BIN/*/libGLESv2.dll
+Sources/BUSMASTER/BIN/*/opengl32sw.dll
+Sources/BUSMASTER/BIN/*/Qt5Svg.dll
+Sources/BUSMASTER/BIN/*/styles
 Sources/BUSMASTER/BIN/*/DBManager.dll
 Sources/BUSMASTER/BIN/*/JPN
+Sources/BUSMASTER/BIN/*/AscLogConverter.dll
+Sources/BUSMASTER/BIN/*/BlfLibrary.dll
+Sources/BUSMASTER/BIN/*/BlfLogConverter.dll
+Sources/BUSMASTER/BIN/*/CAPL2CConverter.dll
+Sources/BUSMASTER/BIN/*/DBC2DBFConverter.dll
+Sources/BUSMASTER/BIN/*/DBC2DBFConverterLibrary.dll
+Sources/BUSMASTER/BIN/*/DBF2DBCConverter.dll
+Sources/BUSMASTER/BIN/*/J1939DBC2DBFConverter.dll
+Sources/BUSMASTER/BIN/*/LIN_ETAS_BOA_1_5.dll
+Sources/BUSMASTER/BIN/*/LogAscConverter.dll
+Sources/BUSMASTER/BIN/*/LogToExcelConverter.dll
+Sources/BUSMASTER/BIN/*/CAN_RUSOKU.dll
+Sources/BUSMASTER/BIN/*/LIN_Kvaser.dll
+
 Sources/BUSMASTER/BIN/Libs/*/*.exp
 Sources/BUSMASTER/BIN/Libs/*/CAN_ETAS_BOA.lib
 Sources/BUSMASTER/BIN/Libs/*/CAN_ETAS_BOA_1_4.lib
@@ -396,23 +420,28 @@ Sources/BUSMASTER/EXTERNAL/DmGraph/DMGraph_p.c
 Sources/BUSMASTER/LDFEditor/GeneratedFiles
 Sources/BUSMASTER/LDFViewer/GeneratedFiles
 Sources/BUSMASTER/LDFViewer/GeneratedFiles
+Sources/BUSMASTER/LDFViewer/LDFViewer_autogen
+Sources/BUSMASTER/LDFEditor/LDFEditor_autogen
 
 Sources/BUSMASTER/BIN/Release/canal.dll
-Sources/BUSMASTER/BIN/Release/CAN_RUSOKU.dll
-Sources/BUSMASTER/BIN/Release/LIN_Kvaser.dll
 Sources/BUSMASTER/BIN/Release/mhstcan.dll
 Sources/BUSMASTER/BIN/Release/ConverterPlugins
 
 # CMake build dirs
-Sources/BUSMASTER/BIN/*.sln
-Sources/BUSMASTER/BIN/*.vcxproj*
 Sources/BUSMASTER/BIN/Sources
 Sources/BUSMASTER/BIN/Win32
-Sources/BUSMASTER/BIN/CMakeFiles
-Sources/BUSMASTER/BIN/*.cmake
 Sources/BUSMASTER/BIN/*.txt
 Sources/BUSMASTER/BIN/.qt/
 Sources/BUSMASTER/BIN/x64/
+/Win32
+*.cmake
+CMakeFiles
+CMakeCache.txt
+ALL_BUILD.vcxproj
+ALL_BUILD.vcxproj.filters
+*.sln
+*.dir
+*.vcxproj*
 
 # packaging
 packaging/NovoBusAnalyzer_Cleanup_Registry.exe
@@ -444,3 +473,4 @@ Tests/PMD/cpd.html
 Tests/PMD/cpd.xml
 Tests/PMD/cpd-fixed.xml
 Tests/Requirements Traceability Matrix/report.html
+
